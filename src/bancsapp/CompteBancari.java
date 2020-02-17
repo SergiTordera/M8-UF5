@@ -16,6 +16,7 @@ public class CompteBancari {
     public String getNom() {
         return this.nom;
     }
+    
 
     public int getNumSecret() {
         return this.numSecret;
@@ -54,5 +55,10 @@ public class CompteBancari {
             resultat = true;
         }
         return resultat;
+    }
+    
+    public void saludo(){
+        
+        System.out.println("Saludar");
     }
 }
